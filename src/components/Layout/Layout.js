@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 // Components
 import { Sidebar } from "../Sidebar"
+import { MenuBar } from "../MenuBar"
 
 // Styles
 import * as S from "./layout.styles"
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Sidebar />
       <S.LayoutMain>{children}</S.LayoutMain>
+      <MenuBar />
     </S.LayoutWrapper>
   )
 }
