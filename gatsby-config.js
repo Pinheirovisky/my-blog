@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `My blog`,
-    description: `First blood on gatbsy`,
+    title: `Vinícius Pinheiro`,
+    position: "Frontend Developer",
+    description: `I'm a front-end developer and now I'm following the roadmap to really being a Javascript Mage.`,
     author: `@viniciuspinheiro`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,8 +29,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

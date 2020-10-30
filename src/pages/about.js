@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 import { Layout } from "../components/Layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Home</h1>
+    <SEO title="about" />
+    <h1>About Page</h1>
     <li>
       <Link to="/" activeStyle={{ color: "red" }}>
         Home
@@ -19,4 +19,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
